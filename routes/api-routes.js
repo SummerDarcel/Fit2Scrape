@@ -6,7 +6,7 @@ const cheerio = require("cheerio");
 module.exports = (app) => {
     // scraping website (working)
     app.get("/articles/scrape", (request, response) => {
-        const url = "https://www.buzzfeed.com/tvandmovies"
+        const url = "https://medium.com/topic/technology"
         // Making a request via axios for reddit's "webdev" board. The page's HTML is passed as the callback's third argument
         axios.get(url).then(function (response) {
             var $ = cheerio.load(response.data);
