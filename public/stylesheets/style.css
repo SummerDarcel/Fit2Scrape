@@ -1,0 +1,79 @@
+body {
+    font-family: 'Assistant', sans-serif;
+    background-image: url(../images/news-3.jpg);
+    background-size: 300px 100px;
+
+}
+ main{
+  margin-left: 25px;
+  margin-right: 25px;
+  
+}
+
+.card {
+  opacity: .85;
+  color: rgb(66, 140, 189);
+  background-color: rgba(14, 1, 1, 0.517)
+}
+
+#saved {
+  font-family: 'Faster One', cursive;
+  color: rgba(69, 5, 5, 0.734);
+  font-size: 30px;
+  text-align: center;
+}
+
+.nav-wrapper, .nav-wrapper.topnav {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: black;
+  font-size: 35px;
+}
+
+#scrape-btn, #delete-btn {
+  background-color:  rgba(69, 5, 5, 0.734);
+}
+
+.page-background {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  background-size: cover, cover;
+}
+
+#articles {
+  display: inline-block;
+  overflow: auto;
+  width: 60%;
+  height: 700px;
+}
+
+#save-btn, .addNote, .delete, .save-note-btn, .delete-note-btn, .save {
+  background-color: rgba(69, 5, 5, 0.734);
+  border: none;
+}
+
+.card-link {
+  color:rgba(255, 255, 255, 0.741);
+ }
+
+ .card-link:hover {
+   font-size: 20px;
+ }
+
+img {
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+
+.page-footer {
+  background-color:  rgba(69, 5, 5, 0.734);
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
