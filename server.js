@@ -28,7 +28,7 @@ app.set("view engine", "handlebars");
 //connecting to MongoDB
 //mongoose.connect("mongodb://localhost/fit2scrape");
 const MONGODB_URI =
-process.env.MONGODB_URI || "mongodb://localhost/fit2scrape";
+process.env.MONGODB_URI || "mongodb://localhost/Fit2Scrape";
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
 var db = mongoose.connection;
